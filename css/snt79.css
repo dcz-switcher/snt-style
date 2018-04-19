@@ -1,0 +1,1067 @@
+/* ========================================================================= */
+/* CSS 03/10/2013 21:15:03 */
+/* ========================================================================= */
+
+
+/*=============================================================================
+HTML
+=============================================================================*/
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: Arial;
+   font-size: 12px;
+   color: #000000;
+   font-weight:#000000;
+   font-style:normal;
+   text-decoration:none;
+   font-variant:normal;
+   text-align:left;
+      background-color:#ebe017;
+   }
+a,
+a:visited{
+   color: #000000;
+   font-family:Arial;
+   font-weight:normal;
+   font-style:normal;
+   text-decoration:none;
+  }
+a:hover{
+   color: #ebe017;
+      text-decoration: underline;
+   }
+p,
+ul,
+ol{
+   margin-bottom: 1.3em;
+}
+
+/*ul{
+   list-style: none;
+}*/
+
+
+.sidebar ul, 
+.sidebar ol{padding-left:0;}
+
+h1{
+   margin-bottom: 20px;
+   font-size: 2em;
+   font-weight: normal;
+}
+h2{
+   margin-bottom: 20px;
+   font-size: 1.8em;
+   font-weight: normal;
+}
+h3{
+   margin-bottom: 20px;
+   font-size: 1.5em;
+   font-weight: normal;
+}
+h4,
+h5,
+h6{
+   margin-bottom: 20px;
+   font-size: 1.3em;}
+
+#main h1, #main h1 a, #main h1 a:visited, 
+#main h2, #main h2 a, #main h2 a:visited,
+#main h3, #main h3 a, #main h3 a:visited, 
+#main h4, #main h4 a, #main h4 a:visited, 
+#main h5, #main h5 a, #main h5 a:visited, 
+#main h6, #main h6 a, #main h6 a:visited, 
+#content .item_title, #content .item_title a, #content .item_title a:visited, 
+dt, dt a, dt a:visited, 
+.widget h4, .widget h4 a, .widget h4 a:visited{
+   color: #000000;
+   text-decoration: none;
+}
+#main h1 a:hover, 
+#main h2 a:hover, 
+#main h3 a:hover, 
+#main h4 a:hover, 
+#main h5 a:hover, 
+#main h6 a:hover, 
+#content .item_title a:hover, 
+dt a:hover,
+.widget h4 a:hover{
+   color: #7c878d;
+}
+
+
+hr{
+   margin:10px 0;
+   color:#ebe017;
+   background-color:#ebe017;}
+
+dt{
+    font-weight:bold;
+    margin-top:20px;}
+    
+dt:first-child{
+    margin-top:0;}
+
+.ico,
+.ico_arrow_breadcrumbs,
+.ico_home{background-position:0 0; background-repeat:no-repeat;}
+
+.breadcrumbs_home{
+   background-image:url(../medias/static/themes/sport/ico_home_white.png);}
+.diary_item_place.ico_home{
+   background-image:url(../medias/static/themes/sport/ico_home.png);}
+
+.ico_add {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;}
+
+.ico_pdf{display:inline-block;}
+
+
+/*FORMS*/
+fieldset{
+   border: 1px solid #000000;}
+
+legend{
+   padding: 5px;
+   left:0;
+      font-size:1.3em;
+   color:#000000;
+}
+
+.textfield, select{
+   border-color: #000000;
+}
+.textfield:focus, select:focus{
+   background-color:#c5c8c9;}
+
+
+.textfield:focus, select:focus{
+   border-color: #ebe017;
+}
+.sidebar .textfield, .sidebar select{
+   width: 160px;
+}
+span.form_standard_text_format_icons{
+    background-color: transparent;
+}
+
+.subscribe_link{font-size:1.2em;}
+
+/*TABLE*/
+table.table_standard{
+   border: 0;
+}
+table.table_standard th{
+      background-color: #ebe017;
+      color: #fff;
+}
+table.table_standard tr:nth-child(odd) td{
+   background: #ebe017;
+   /*color:#fff;*/
+}
+
+table.table_standard tr:nth-child(odd) td a{
+   color:#fff !important;}
+
+
+
+
+
+.col_content table{
+   width:100%;}
+
+.col_content table tr{
+   height:30px;}
+
+.col_content table tbody tr:nth-child(odd){
+   background-color:#ebe017;}
+
+.col_content table thead tr{
+   font-weight:bold;
+   background-color:#7c878d;
+   color:#fff;
+   font-size:1.2em;}
+
+.col_content table td{
+   padding:5px;}
+
+/*=============================================================================
+COMMON
+=============================================================================*/
+.main_title{
+   margin-bottom: 20px;
+   padding-bottom: .2em;
+   font-size: 3em;
+      border-bottom: 1px solid #000000;
+   }
+.item .item_content{
+   padding: 0;
+}
+/*ONGLETS*/
+ul.tabs,
+ul.tabs li{
+       border-color: #000000;
+   }
+ul.tabs li.active{
+      border-bottom-color: #fff;
+   }
+ul.tabs a:hover{
+    color: #7c878d;
+}
+/*PAGINATION*/
+div.pagination span, div.pagination a {
+    border-color: #7c878d;
+}
+div.pagination span, div.pagination a:hover{
+      background-color: #7c878d;
+      }
+/*BOUTONS*/
+a.button,
+span.ecom_item_numeric_stepper_up,
+span.ecom_item_numeric_stepper_down,
+input[type="submit"],
+input[type="button"]{
+   background: #ebe017;
+      color: #000000;
+      border: 0;
+}
+a.button:hover,
+span.ecom_item_numeric_stepper_up:hover,
+span.ecom_item_numeric_stepper_down:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover{
+   background: #7c878d;
+      color: #000000;
+      text-decoration: none;
+}
+/*TAGS*/
+p.tags {
+   background-position: 0 77% !important;
+      border-top: 1px dotted #000000;
+      padding: 10px 0 0;
+}
+p.tags:before {
+   content: "Tags :";
+}
+p.tags a{
+   display: inline-block;
+   padding: 5px 7px;
+   margin-right: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+      border: 1px solid #000000;
+      background-color:#fff;
+}
+p.tags a:hover{
+   text-decoration: none;
+   background-color:#c5c8c9;
+}
+
+/*CATEGORIES*/
+ul.categories_list{
+   background-color: #ebe017;
+   text-align:left;
+   border-radius:5px;}
+
+ul.categories_list ul{
+    margin-left: 0;}
+
+ul.categories_list li{width:27.8%;}
+
+#main ul.categories_list li{padding:5px; border-radius:5px;}
+#main ul.categories_list li li{padding:5px 0;}
+
+#main ul.categories_list li:hover,
+#main ul.categories_list li:hover a{background-color:#fff;
+   color:#ebe017;}
+
+#main ul.categories_list li.main_category a.item_title,
+#main ul.categories_list li a.main_category,
+#main ul.categories_list li.main_category ul li a{
+   color:#fff;}
+
+#main ul.categories_list li.main_category:hover a.item_title,
+#main ul.categories_list li:hover a.main_category,
+#main ul.categories_list li.main_category:hover ul li a{
+   background-color:#fff;
+   color:#ebe017;
+   }
+/*=============================================================================
+WIDGETS
+=============================================================================*/
+div.widget{
+   overflow: visible;}
+
+div.widget h4{
+   margin-bottom: 10px;
+  /* border-top: #000000 1px solid;
+   border-bottom: #000000 1px solid;*/
+   border-radius:5px;
+   padding:5px;
+   text-align:left;}
+
+div.widget .widget_item{
+   padding: 5px;
+   width: 238px;
+   border-bottom:0;
+   margin-bottom:0;}
+
+.widget .table_standard tr{
+   display:block;
+   width: 248px;
+   overflow:hidden;}
+
+
+
+div.widget .widget_item:nth-child(odd), 
+div.widget tr:nth-child(odd) td{
+   background-color: #c5c8c9;
+   border-top:1px solid #7c878d;
+   border-bottom:1px solid #7c878d;
+}
+
+div.widget_image_last ul li,
+div.widget_photogallery ul li{
+    margin: 7px;
+}
+
+div.widget .widget_item a:hover, 
+div.widget tr td a:hover,
+div#sidebar1 div.widget .widget_item a:hover,
+div#sidebar1 div.widget tr td a:hover{color:#7c878d;
+text-decoration:underline;}
+
+/*div.widget .widget_item:nth-child(odd) a:hover*/, 
+div.widget tr:nth-child(odd) td a:hover,
+/*div#sidebar1 div.widget .widget_item:nth-child(odd) a:hover*/,
+div#sidebar1 div.widget tr:nth-child(odd) td a:hover{
+   color:#fff;}
+
+a.photogallery_categories_thumb{
+   overflow:hidden;
+   height:auto;}
+
+.widget_item .diary_item_title{
+   font-size:1.2em;}
+
+
+/*SIDEBAR*/
+.sidebar .widget_item .diary_item_title a:hover{
+   color:#000000;}
+.sidebar .widget_cart p{text-align:center;}
+.sidebar .widget_cart p span{color:#ebe017;}
+.sidebar .widget_stats dt{margin-top:10px; display:inline-block;}
+
+.memberchatbox_msg,
+#chatbox_messages_content div.chat_msg
+{background-color:#c5c8c9; border:1px solid #7c878d;}
+.memberchatbox_infos,
+#chatbox_messages_content div.chat_msg .chat_msg_infos{color:#7c878d;}
+#chatbox_message_input{background-color:#c5c8c9;}
+/*=============================================================================
+LAYOUT
+=============================================================================*/
+div#background{
+   position: absolute;
+   z-index:10;
+   left:0;
+   top:0;
+   width:300%;
+   height:1800px;
+   /*** background-image:url(../medias/static/themes/sport/cyclisme/bg.jpg); ***/
+   /*** background-image:url(../medias/images/sevre-niort.jpg); ***/
+   background-image:url(../medias/images/coulon.jpg);
+   /***background-image:url(../medias/images/hippodrome-niort.jpg); ***/
+   /*** background-image:url(../medias/images/pere-noel-vtt-271x300.jpg); ***/
+   
+   background-position:center top;
+   background-repeat:repeat-x;
+   z-index:1;
+   box-shadow:1px 0px 7px #000;
+}
+div#wrapper_container{
+   position: relative;
+   overflow: hidden;}
+
+div#container{
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   background-color:#fff;
+   z-index:100;
+   box-shadow:0px 0px 5px #000;
+}
+
+div#breadcrumbs_container{
+   height:20px;
+   width:960px;
+   clear:left;
+   padding:10px;
+   margin-bottom:20px;
+   background-color:#ebe017;
+   }
+
+ul#breadcrumbs{
+   /*background-color:#ebe017;
+   width:960px;*/
+   color:#fff;}
+
+ul#breadcrumbs li{
+   background-position: -3px 2px;
+   display: inline-block;
+   height: 16px;
+   line-height: 20px;}
+   
+   ul#breadcrumbs a{
+      color:#fff;}
+   
+
+
+   /*HEADER*/
+   div#header{
+      position: relative;
+      float: left;
+      width: 920px;
+      
+        height: 250px;
+        background-image:url(../medias/static/themes/sport/cyclisme/header.jpg);
+            /* background-image:url(../medias/images/sevre-niort.jpg); */
+      background-repeat:no-repeat;
+      background-position:left top;
+            background-color: #ebe017;
+         
+      overflow: hidden;
+      text-align:right;
+      padding:0 30px;}
+   
+   div#logo{
+      float: left;
+      margin-right: 10px;}
+   
+   #title{
+      margin-top: 20px;
+      margin-bottom:0;
+      text-align:right;
+      font-size:5em;
+      /*background:url(../medias/static/themes/boutique_pratique/bg_menu.png) 0 0 repeat;*/   
+   }
+   #title a{
+            color: #ebe017;
+            text-decoration: none;
+      font-family:Arial;
+      font-style:normal;
+      text-decoration:none;
+      font-variant:normal;
+   }
+   #sub_title{
+      color: #000000;
+      text-align:right;
+      font-variant:normal;
+      text-decoration:none;
+      font-style:normal;
+      font-weight:normal;
+      font-size:2em;
+      font-family:Arial;
+      /*background:url(../medias/static/themes/boutique_pratique/bg_menu.png) 0 0 repeat;*/
+   }
+   
+   
+   /*MENUS HORIZONTAUX*/
+   #container div.menu_h{
+      position: relative;
+      width: 970px;
+      padding:0 5px;
+      border:0;
+            background-color: #000000;
+            margin-top:-40px;
+   }
+   
+   
+   #container div.menu_h ul.menu li{
+      border-right:none;
+      margin-right:5px;
+      border-radius:5px 5px 0 0;
+      background:url(../medias/static/themes/boutique_pratique/bg_menu.png) left top repeat #e3e5e6;
+   }
+   
+   #container div.menu_h ul.menu li a{
+      display:block;}
+
+   #container div.menu_h ul.menu li:last-child{
+      margin:0;}
+   
+   #container div.menu_h ul.menu a.menu_item,
+   #container div.menu_h ul.menu a.menu_item:visited{
+      color: #000000;
+      font-size:1.1em;
+      border-radius:5px 5px 0 0;}
+   
+   #container div.menu_h ul.menu li.selected a.menu_item,
+   #container div.menu_h ul.menu li:hover a.menu_item{
+      background-color:#ebe017;
+      color:#ffffff;}
+   
+   #container div.menu_h ul.menu li .submenu li{
+      margin-right:0;
+      border-radius:0;}
+
+   #container div.menu_h ul.menu li .submenu li a{
+      padding:5px 5px;}
+   
+   /*MENUS VERTICAUX*/
+
+   div#sidebar1 ul.menu > li:nth-child(odd){
+   background-color:#c5c8c9;
+   border-top:1px solid #7c878d;
+   border-bottom:1px solid #7c878d;
+   }
+
+   div#sidebar1 ul.menu li{padding:0;}
+
+   div#sidebar1 ul.menu > li:hover,
+div#sidebar1 ul.menu > li.menu_item:hover{
+   background-color:#7c878d;
+   }
+
+div#sidebar1 ul.menu > li:hover a,
+div#sidebar1 ul.menu > li.menu_item:hover a{
+   color:#fff;}
+
+
+   div#sidebar1 ul.menu li a{
+      padding:3px 10px;
+      display:block;}
+
+   div#sidebar1 ul.menu li a:hover{
+      background-position: 5px 50%;
+      background-repeat:no-repeat;
+      background-image: url(../medias/static/themes/sport/raid.png);
+      text-decoration:none;
+      }
+
+
+
+
+
+
+#newsletter_email{padding:5px;}
+   
+   
+   /*MENUS DEROULANTS*/
+   #container ul.submenu{
+            border-color: transparent;
+                  background-color: #c5c8c9;
+      }
+
+   
+   
+      #container ul.submenu li a:hover{
+      background-color: #7c878d;
+      color:#fff;}
+   
+   div#sidebar1 ul.submenu li{
+      padding:0;}
+
+
+   ul.submenu li a,
+   div#sidebar1 ul.submenu li a{
+            border-color: transparent;
+      }
+
+
+
+   /*SUBMENU VERTICAUX*/
+   #container div.sidebar ul.submenu{
+      border:1px solid #000000;
+      width:200px;}
+
+   #container div.sidebar ul.submenu.first{
+      position: absolute;
+      top: -1px;
+      left: 100%;}
+
+   /*CONTENT*/
+   div#content{
+      clear: both;
+      padding:0 5px;
+      background-color:#fff;
+   }
+   /*SIDEBAR*/
+   div#sidebar1{
+      position: relative;
+      float: left;
+      text-align:left;
+      width: 248px;
+      padding: 5px;
+            background-color: #e3e5e6;
+                  color: #000000;
+         }
+
+   div#sidebar1 div.widget h4{
+   background:url() left top no-repeat #ebe017;}
+
+      div#sidebar1 a,
+   div#sidebar1 a:visited{
+      color: #000000;}
+   
+      div#sidebar1 a:hover{
+      color: #7c878d;}
+   
+   
+   div#sidebar1 div.widget h4,
+   div#sidebar1 div.widget h4 a,
+   div#sidebar1 div.widget h4 a:visited,
+   div#sidebar1 div.widget h4 a:hover{
+         color: #000000;
+      font-family: Arial;}
+   
+
+   div#sidebar1 div.widget h4 a{
+   font-weight:inherit;}
+   
+   div#sidebar1 .item_title,
+   div#sidebar1 .item_title a,
+   div#sidebar1 .item_title a:visited,
+   div#sidebar1 .item_title a:hover,
+   div#sidebar1 dt,
+   div#sidebar1 p.diary_item_title a,
+   div#sidebar1 p.diary_item_title a:visited
+   div#sidebar1 p.diary_item_title a:hover{
+      color:#7c878d;}
+   
+   /*MAIN*/
+   div#main{
+      position: relative;
+      float: right;
+      width: 690px;
+      padding: 0 10px;
+      
+      }
+   
+   div#main.mainfull{
+      float: none;
+      width: 958px;
+   }
+   
+   div.cols{width:710px;}
+   div#main.mainfull div.cols{width:978px;}
+
+   /*CATEGORIES*/
+   .item_content{
+      margin-bottom:30px;
+      border-bottom:#000000 1px solid;}
+
+   .list_3_cols .item_content{border-bottom:0;}
+   
+   .list_items .guestbook_item{border-bottom:#000000 1px solid;}
+
+   /*FOOTER*/
+   div#footer{
+      position: relative;
+      z-index:1000;
+      margin: 0 auto;
+      color:#000000;
+            background-color: #ebe017;
+                  /** background-image:url(../medias/static/themes/sport/cyclisme/bg.jpg); **/
+                  /*** background-image:url(../medias/images/sevre-niort.jpg); ***/
+      background-position:left top;
+      background-repeat:repeat-x;
+            padding:2px 0;
+      min-height:150px;}
+
+   div#footer_content,
+   #legal{margin:0 auto;}
+
+   
+   div#footer > div{
+      background:url(../medias/static/themes/boutique_pratique/bg_menu.png) 0 0 repeat;
+     
+   padding:10px;
+   width:960px;
+   margin:0 auto;}
+   
+   div#footer_content p:last-child{
+      margin-bottom: 0;
+   }
+
+   #brandcopyright{
+   color:#000000;}
+   
+   #brandcopyright a{
+      color:#000000;
+      text-decoration:underline;}
+
+   #brandcopyright a:hover{
+      text-decoration:none;}
+
+   #legal a{
+      margin-right:5px;
+      color:#000000;
+      text-decoration:underline;}
+
+   #legal a:hover{text-decoration:none;}
+
+   #legal a:last-child{
+      margin-right:none;}
+   
+
+   div#footer > div.clear{
+      background:none;}
+
+
+   /*LANGS*/
+   ul#lang{
+      background-color: transparent;
+            border: 1px solid #000000;
+      border-top: 0;
+            background-color:#fff;}
+      
+   /*=============================================================================
+   MODULE : ALBUMS PHOTOS
+   =============================================================================*/
+   /*CATEGORIES*/
+   ul#photogallery_categories li,
+   ul#photogallery_thumb_items li{
+      background-color: #transparent;
+      border-top:1px dotted #000000;
+      border-left:1px dotted #000000;
+      width:29%;}
+   
+   ul#photogallery_categories li:hover,
+   ul#photogallery_thumb_items li:hover{
+      background-color: #transparent;
+      border-top:1px solid#ebe017;
+      border-left:1px solid #ebe017;}
+   
+   small.photogallery_categories_nb_items{
+            background-color: #ebe017;
+      color: ;
+            padding:5px;}
+   
+   
+   div.photogallery_categories_description{
+       text-align: center;}
+
+
+   
+   /*ALBUM VIGNETTES*/
+   ul#photogallery_list{
+      overflow:hidden;}
+   
+   
+   /*ALBUM LISTES*/
+   ul#photogallery_list_items li:nth-child(odd){
+            background-color: #ebe017;
+       
+   }
+   
+      ul#photogallery_list_items li:nth-child(odd) dt.item_title{
+            color: #7c878d !important;
+         }
+   /*=============================================================================
+   MODULE : AGENDA
+   =============================================================================*/
+   ul.diary_item_infos li,
+   ul.diary_item_infos_contact li{
+   display:inline-block;
+   line-height:20px;
+   margin-right:15px;}
+
+
+   /*=============================================================================
+   MODULE : VIDEO
+   =============================================================================*/
+   #main .video_item.widget_item{
+      float:left;
+      width:100%;}
+
+   #main .video_item.widget_item .video_item_title a{
+      font-size:1.2em;
+      padding:5px;}
+
+   .list_items .video_item{
+      margin-bottom:20px;}
+
+   .list_items .video_item.odd_item{
+      background-color:#c5c8c9;}
+
+/*=============================================================================
+MODULE : E-CARDS
+=============================================================================*/
+/*CATEGORIES*/
+
+ul#ecards_thumb_items li{
+   border-top:#000000 1px dotted;
+   border-left:#000000 1px dotted;
+   margin-right:1%;}
+
+ul#ecards_thumb_items li:hover{
+   border-top:#ebe017 1px solid;
+   border-left:#ebe017 1px solid;}
+
+
+.sidebar .widget_ecard_last li{
+   float:left;
+   margin:0 5px;}
+
+/*=============================================================================
+MODULE : ECOMMERCE
+=============================================================================*/
+
+/*VIGNETTES*/
+div.ecom_thumb_item{
+   background-color: #transparent;
+   border-top:1px dotted #000000;
+   border-left:1px dotted #000000;
+   padding:10px;}
+   
+ul.ecom_thumb_items li{
+   min-width:325px;} 
+
+div.ecom_thumb_item h3 a{
+   background-color: transparent;}
+
+div.ecom_thumb_item_stock .info{
+   font-style: italic;}
+
+div.ecom_thumb_item_price span{
+   font-size: 1.4em;
+   font-weight: bold;
+   color: #7c878d;}
+
+div.ecom_thumb_item_price span.ecom_thumb_item_final_price{
+   color: #000000;}
+
+span.ecom_thumb_item_old_price{
+   color: #000000;}
+
+#sidebar1 span.ecom_thumb_item_old_price{
+   color: #000000;}
+
+ul.ecom_3_cols li{width:48%;}
+
+
+/*PRODUIT*/
+div.ecom_item_add_to_basket_container,
+p#ecom_item_variations{
+   background-color:#c5c8c9;}
+
+span.ecom_item_old_price{
+   color: #000000;}
+
+span.ecom_item_final_price{
+   font-size: 1.4em;
+   font-weight: bold;
+   color: #000000;}
+
+span.ecom_item_stockinfo{
+   font-style: italic;}
+
+input.ecom_item_qty{
+      border: 1px solid #ebe017;
+   }
+
+ul.rating_list{
+   height:32px;
+   line-height:32px;}
+
+ul.rating_list li{
+   width:32px;
+   height:32px;}
+
+ul.rating_list label{
+   background:url("../medias/static/themes/sport/rate.png") 0 -32px no-repeat;
+   color:#000000;
+   font-weight:bold;
+   font-size:1.4em;
+   padding-top:1px;}
+
+ul.rating_list li.note-off label{
+   background-position:0 0;}
+
+span.ecom_thumb_item_infos_rate{
+   background:#c5c8c9 url("../medias/static/themes/sport/ico_rate.png") no-repeat scroll 100% 50%;
+    border-radius: 3px 3px 3px 3px;
+    height: 16px;
+    padding: 1px 18px 1px 1px;}
+
+p.rating_infos{
+   line-height:32px;}
+
+ul.ecom_thumb_item_rate li{
+   width:auto;
+   min-width:24px;}
+
+.product_quantities,
+.product_supplier,
+.product_manufacturer{
+   font-weight:bold;}
+
+
+/*VARIATIONS*/
+p#ecom_item_variations{
+   float: left;
+   padding: 5px;
+   /*   background-color: #ebe017;
+   */}
+
+
+/*CART*/
+td.eco_img{
+   width: 100px;}
+
+.eco_title a{
+   color:#000;}
+
+.products_price_ttc_format{
+   font-size:1.3em;
+   font-weight:bold;}
+
+/*ALERT*/
+#fancybox-content{
+      background:url(../medias/static/themes/boutique_pratique/bg_menu.png) left top repeat transparent;
+   }
+
+p.fb_message{
+   color:#000000;
+   font-size:1.3em;}
+
+/*=============================================================================
+MODULE : DIRECTORY
+=============================================================================*/
+.directory_items_container .directory_item{
+   border-bottom:1px solid #7c878d;
+   float: left;
+   padding: 5px;
+   width:99%;}
+
+a.directory_item_screenshot{
+      border: 1px solid #000000;
+   }
+
+div.search_container fieldset{
+   background-color:transparent;}
+
+div.search_container label{margin-right:10px;}
+
+.directory_item .item_title{margin-top:10px;}
+
+
+/*=============================================================================
+MODULE : FORUMS
+=============================================================================*/
+table#forum_table tr:last-child td{
+      border-bottom: 1px solid #000000;
+   }
+
+table#forum_table td.author_column{
+    width: 100px;}
+
+td.message_column div.member_sign{
+      padding-top: 5px;
+   border-top: 1px solid #000000;
+   }
+
+
+/*=============================================================================
+MODULE : CHARTS
+=============================================================================*/
+dl.chart_result dd {
+      border-top: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   }
+
+dl.chart_result dd span{
+      background-color: #7c878d;
+         padding:10px 0;}
+
+/*=============================================================================
+MODULE : LIENS
+=============================================================================*/
+code{
+       border-color: #000000;
+   }
+
+/*=============================================================================
+MODULE : CONTACT
+=============================================================================*/
+table#contact_table ul:first-child li{
+       border-bottom-color: #000000;
+   }
+
+#contact_definitions_list dt{
+   border-bottom:#000000 1px dotted;}
+
+#contact_definitions_list dt a{
+   font-size:1.2em;}
+/*=============================================================================
+MODULE : ESPACE MEMBRES
+=============================================================================*/
+/*MEMBERS LIST*/
+
+#members_profiles_list .item_content{border:0;}
+
+ul#members_profiles_list li{
+   width: 120px;
+      background-color: #ebe017;
+   }
+
+ul#members_profiles_list li:nth-child(5n){
+   margin-right: 0;}
+
+ul#members_profiles_list a span{
+	text-decoration: underline;}
+
+ul#members_profiles_list a:hover span{
+	text-decoration: underline;}
+
+
+
+/*CHATBOX*/
+#chatbox_wrapper,
+#chatbox_messages,
+#chatbox_form,
+#chatbox_message_input_wrapper,
+body #chatbox_smileys a{
+       border-color: #000000;
+   }
+
+/*=============================================================================
+PASSWORD
+=============================================================================*/
+body.passwordaccess div#container{
+    width:960px;
+  
+  /*height:250px;
+   margin-top:50px;
+   padding-left:20px;*/
+   
+}
+
+/*body.passwordaccess div#container form{
+   color:#fff;
+   margin-top:180px;}*/
+
+
+body.passwordaccess .members_connect,
+body.passwordaccess .passwordaccess_password{
+    background-color:#fff;
+     padding:20px;
+    box-shadow:0px 0px 5px #999;
+    margin:5px;
+}
+
+body.passwordaccess .members_connect input#rememberme {
+    margin-left:30%;
+}
+
+/*=============================================================================
+CSS ADDITIONNEL
+=============================================================================*/
