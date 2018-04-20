@@ -429,55 +429,30 @@ ul#breadcrumbs li{
       position: relative;
       float: left;
       width: 920px;
-      
-        height: 250px;
-        background-image:url(../medias/images/header-bg.png);
-        /*background-image:url(../medias/static/themes/sport/cyclisme/header.jpg);*/
-            /* background-image:url(../medias/images/sevre-niort.jpg); */
+      height: 250px;
+      background-image:url(../medias/images/header-bg.png);
       background-repeat:no-repeat;
       background-position:left top;
-      /*background-color: #ebe017;*/
       background-color: #fff;
-         
       overflow: hidden;
-      /*
-      padding:0 30px;
-      text-align:right;
-      */
       text-align: left;
       padding: 0;
       margin: 0;
 }
    
    div#logo{
-      /*
-      float: left;
-      margin-right: 10px;
-      */
       display: none;
 }
    
    #title{
-         /*
-      margin-top: 20px;
-      margin-bottom:0;
-      text-align:right;
-      */
       margin: 42px 0 0 42px;
       padding: 0;
       text-align: left;
       font-family: Roboto-Black, Arial, Helvetica, sans-serif;
       font-size: 50px;
       color: #000000;
-      /*
-      font-size:5em;
-      background:url(../medias/static/themes/boutique_pratique/bg_menu.png) 0 0 repeat;
-      */   
    }
    #title a{
-         /*
-      color: #ebe017;
-      */
       padding: 0;
       margin: 0;
       color: #000;
@@ -489,15 +464,18 @@ ul#breadcrumbs li{
       font-variant:normal;
    }
    #sub_title{
-      color: #000000;
-      text-align:right;
       font-variant:normal;
       text-decoration:none;
       font-style:normal;
       font-weight:normal;
-      font-size:2em;
-      font-family:Arial;
-      /*background:url(../medias/static/themes/boutique_pratique/bg_menu.png) 0 0 repeat;*/
+      text-align: center;
+      position: absolute;
+      top: 174px;
+      left: 0;
+      width: 568px;
+      font-family: Roboto-Light, Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      color: #FFFFFF;
    }
    
    
