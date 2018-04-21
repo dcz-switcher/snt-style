@@ -1,7 +1,7 @@
-/* ========================================================================= */
-/* CSS 03/10/2013 21:15:03 */
-/* ========================================================================= */
-
+/*
+    updated 2018-04-18
+    by david.c
+*/
 
 /*=============================================================================
 HTML
@@ -338,9 +338,8 @@ div#sidebar1 div.widget .widget_item a:hover,
 div#sidebar1 div.widget tr td a:hover{color:#7c878d;
 text-decoration:underline;}
 
-/*div.widget .widget_item:nth-child(odd) a:hover*/, 
 div.widget tr:nth-child(odd) td a:hover,
-/*div#sidebar1 div.widget .widget_item:nth-child(odd) a:hover*/,
+
 div#sidebar1 div.widget tr:nth-child(odd) td a:hover{
    color:#fff;}
 
@@ -593,25 +592,30 @@ div#sidebar1 ul.menu > li.menu_item:hover a{
       top: -1px;
       left: 100%;}
 
-   /*CONTENT*/
-   div#content{
-      clear: both;
-      padding:0 5px;
-      background-color:#fff;
-   }
-   /*SIDEBAR*/
-   div#sidebar1{
-      position: relative;
-      float: left;
-      text-align:left;
-      width: 248px;
-      padding: 5px;
-            background-color: #e3e5e6;
-                  color: #000000;
-         }
+    /*CONTENT*/
+    div#content{
+        clear: both;
+        padding:0 5px 0 0;
+        background-color:#fff;
+    }
+    /*SIDEBAR*/
+    div#sidebar1{
+        position: relative;
+        float: left;
+        text-align:left;
+        width: 248px;
+        padding: 0;
+        background-color: #FFF;
+        color: #000000;
+    }
 
-   div#sidebar1 div.widget h4{
-   background:url() left top no-repeat #ebe017;}
+    div#sidebar1 div.widget h4{
+        background:url() left top no-repeat #ebe017;
+        border-radius: 0;
+        padding: 12px ;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
 
       div#sidebar1 a,
    div#sidebar1 a:visited{
@@ -632,6 +636,26 @@ div#sidebar1 ul.menu > li.menu_item:hover a{
    div#sidebar1 div.widget h4 a{
    font-weight:inherit;}
    
+    div#sidebar1 ul.menu li.nav_item {
+        background: #fff;
+        border: none;
+    }
+
+    div#sidebar1 ul.menu .nav_item a{
+        padding: 10px 0 10px 22px;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+
+    div#sidebar1 ul.menu li.nav_item:hover {
+        background: #000;
+    }
+
+    div#sidebar1 ul.menu .nav_item a:hover{
+        background: inherit;
+    }
+
+
    div#sidebar1 .item_title,
    div#sidebar1 .item_title a,
    div#sidebar1 .item_title a:visited,
@@ -642,6 +666,12 @@ div#sidebar1 ul.menu > li.menu_item:hover a{
    div#sidebar1 p.diary_item_title a:hover{
       color:#7c878d;}
    
+    div#sidebar1 .diary_item,
+    div#sidebar1 .menu_member_connect {
+        padding: 12px;
+    }
+
+
    /*MAIN*/
    div#main{
       position: relative;
@@ -735,21 +765,21 @@ div#sidebar1 ul.menu > li.menu_item:hover a{
    /*CATEGORIES*/
    ul#photogallery_categories li,
    ul#photogallery_thumb_items li{
-      background-color: #transparent;
+      background-color: transparent;
       border-top:1px dotted #000000;
       border-left:1px dotted #000000;
       width:29%;}
    
    ul#photogallery_categories li:hover,
    ul#photogallery_thumb_items li:hover{
-      background-color: #transparent;
+      background-color: transparent;
       border-top:1px solid#ebe017;
       border-left:1px solid #ebe017;}
    
    small.photogallery_categories_nb_items{
             background-color: #ebe017;
-      color: ;
-            padding:5px;}
+            padding:5px;
+        }
    
    
    div.photogallery_categories_description{
@@ -823,7 +853,7 @@ MODULE : ECOMMERCE
 
 /*VIGNETTES*/
 div.ecom_thumb_item{
-   background-color: #transparent;
+   background-color: transparent;
    border-top:1px dotted #000000;
    border-left:1px dotted #000000;
    padding:10px;}
