@@ -470,8 +470,8 @@ ul#breadcrumbs li{
       text-align: right;
       position: absolute;
       top: 210px;
-      right: 0;
-      width: 970px;
+      right: 10px;
+      width: 960px;
       font-family: Roboto-Light, Arial, Helvetica, sans-serif;
       font-size: 24px;
       color: #FFFFFF;
