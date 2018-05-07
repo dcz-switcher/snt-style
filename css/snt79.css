@@ -427,9 +427,9 @@ ul#breadcrumbs li{
    div#header{
       position: relative;
       float: left;
-      width: 920px;
+      width: 980px;
       height: 250px;
-      background-image:url(../medias/images/header-bg-1.png);
+      background-image:url(../medias/images/header-bg-2.png);
       background-repeat:no-repeat;
       background-position:left top;
       background-color: #fff;
@@ -444,11 +444,11 @@ ul#breadcrumbs li{
 }
    
    #title{
-      margin: 42px 0 0 42px;
+      margin: 14px 0 0 14px;
       padding: 0;
       text-align: left;
       font-family: Roboto-Black, Arial, Helvetica, sans-serif;
-      font-size: 50px;
+      font-size: 26px;
       color: #000000;
    }
    #title a{
@@ -466,15 +466,16 @@ ul#breadcrumbs li{
       font-variant:normal;
       text-decoration:none;
       font-style:normal;
-      font-weight:normal;
-      text-align: center;
+      font-weight:bold;
+      text-align: right;
       position: absolute;
-      top: 174px;
-      left: 0;
-      width: 568px;
+      top: 210px;
+      right: 0;
+      width: 970px;
       font-family: Roboto-Light, Arial, Helvetica, sans-serif;
-      font-size: 22px;
+      font-size: 24px;
       color: #FFFFFF;
+      text-shadow: #000 0px 1px 5px;
    }
    
    
