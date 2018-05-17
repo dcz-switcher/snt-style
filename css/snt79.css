@@ -1104,7 +1104,26 @@ CSS ADDITIONNEL
 =============================================================================*/
 
 .snt-card{
+    width: 660px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: flex;
     border: 1px solid #6D6D6D;
+}
+
+.snt-card a{
+    border-bottom: 2px;
+}
+
+.snt-card-left{
+    width: 480px;
+}
+
+.snt-card-right{
+    align-self: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
 }
 
 .snt-card-header{
@@ -1118,8 +1137,10 @@ CSS ADDITIONNEL
     background-color: #000;
     font-size: 20px;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 0 30px 0 20px;
+    width: 350px;
 }
+
 .snt-corner{
     width: 0;
 	height: 0;
@@ -1128,5 +1149,7 @@ CSS ADDITIONNEL
 }
 
 .snt-card-content{
-
+    padding: 20px 20px 0 20px;
+    font-size: 16px;
+    color: #4E4E4E;
 }
