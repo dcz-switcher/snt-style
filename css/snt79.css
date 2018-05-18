@@ -1103,6 +1103,11 @@ body.passwordaccess .members_connect input#rememberme {
 CSS ADDITIONNEL
 =============================================================================*/
 
+.snt-card-wrapper{
+    border: 1px solid transparent;
+    display: table;
+}
+
 .snt-card{
     width: 660px;
     margin-left: 20px;
@@ -1135,8 +1140,8 @@ CSS ADDITIONNEL
     line-height: 48px;
     color: #fff;
     background-color: #000;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: normal;
     padding: 0 30px 0 20px;
     width: 350px;
 }
