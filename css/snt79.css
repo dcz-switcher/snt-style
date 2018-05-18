@@ -1103,6 +1103,18 @@ body.passwordaccess .members_connect input#rememberme {
 CSS ADDITIONNEL
 =============================================================================*/
 
+
+/* contact form ... submit button */
+.form_line_submit input.button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px #bbb;
+    margin-bottom: 5px;
+}
+
+
+/* home cards*/
 .snt-card-wrapper{
     border: 1px solid transparent;
     display: table;
