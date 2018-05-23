@@ -1170,3 +1170,15 @@ CSS ADDITIONNEL
     font-size: 16px;
     color: #4E4E4E;
 }
+
+/* trombinoscope */
+
+.snt-people-name{
+    background-color: #000;
+    color: #fff;
+    margin-top: 8px;
+    padding: 3px 6px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
