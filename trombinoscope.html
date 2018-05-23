@@ -124,8 +124,9 @@ ga('clientTracker.send', 'pageview');
 						var title = $(el).attr('title') || '';
 						var alt = $(el).attr('alt') || '';
 
+						console.log(title + ' / ' + alt);
 						if (title !== alt) {
-							console.log(title + ' !==' + alt);
+							console.log('not the same');
 							diff ++;
 						}
 					});
