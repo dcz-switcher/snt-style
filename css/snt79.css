@@ -1171,6 +1171,11 @@ CSS ADDITIONNEL
     color: #4E4E4E;
 }
 
+.snt-card-note{
+    color: #666;
+    font-size: 14px;
+}
+
 /* trombinoscope */
 
 .snt-people-name{
